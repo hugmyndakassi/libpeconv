@@ -65,7 +65,18 @@ var menudata={children:[
 {text:"u",url:"namespacemembers_func.html#index_u"},
 {text:"v",url:"namespacemembers_func.html#index_v"}]},
 {text:"Variables",url:"namespacemembers_vars.html"},
-{text:"Typedefs",url:"namespacemembers_type.html"},
+{text:"Typedefs",url:"namespacemembers_type.html",children:[
+{text:"_",url:"namespacemembers_type.html#index__5F"},
+{text:"a",url:"namespacemembers_type.html#index_a"},
+{text:"b",url:"namespacemembers_type.html#index_b"},
+{text:"i",url:"namespacemembers_type.html#index_i"},
+{text:"l",url:"namespacemembers_type.html#index_l"},
+{text:"n",url:"namespacemembers_type.html#index_n"},
+{text:"p",url:"namespacemembers_type.html#index_p"},
+{text:"r",url:"namespacemembers_type.html#index_r"},
+{text:"s",url:"namespacemembers_type.html#index_s"},
+{text:"t",url:"namespacemembers_type.html#index_t"},
+{text:"u",url:"namespacemembers_type.html#index_u"}]},
 {text:"Enumerations",url:"namespacemembers_enum.html"},
 {text:"Enumerator",url:"namespacemembers_eval.html"}]}]},
 {text:"Classes",url:"annotated.html",children:[
@@ -164,5 +175,6 @@ var menudata={children:[
 {text:"r",url:"globals_func.html#index_r"},
 {text:"s",url:"globals_func.html#index_s"},
 {text:"t",url:"globals_func.html#index_t"}]},
+{text:"Variables",url:"globals_vars.html"},
 {text:"Typedefs",url:"globals_type.html"},
 {text:"Macros",url:"globals_defs.html"}]}]}]}
