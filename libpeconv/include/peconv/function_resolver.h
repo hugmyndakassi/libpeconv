@@ -6,6 +6,8 @@
 #pragma once
 
 #include <windows.h>
+#include <string>
+#include <map>
 
 namespace peconv {
     /**
@@ -34,6 +36,15 @@ namespace peconv {
         \return Virtual Address of the exported function
         */
         virtual FARPROC resolve_func(LPCSTR lib_name, LPCSTR func_name);
+
+        /**
+        Load the DLL using LoadLibraryA.
+        \param lib_name : the name of the DLL
+        \return base of the loaded module
+        */
+        virtual HMODULE load_library(LPCSTR lib_name);
+
+        std::map<std::string, HMODULE> nameToModule;
     };
 
 }; //namespace peconv
