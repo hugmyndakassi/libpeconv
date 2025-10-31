@@ -1,7 +1,7 @@
 #include "peconv/function_resolver.h"
 
 #include <iostream>
-
+#include <cctype>
 
 namespace util {
     std::string toLowercase(std::string str)
